@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #e1e1e1;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.display {
+    font-size: 48px;
+    color: #00ffcc;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startStopBtn {
+    background-color: #00ff00;
+    color: #1c1c1c;
+}
+
+#startStopBtn:hover {
+    background-color: #00cc00;
+}
+
+#resetBtn {
+    background-color: #ff0066;
+    color: #1c1c1c;
+}
+
+#resetBtn:hover {
+    background-color: #cc0052;
+}
+
+#lapBtn {
+    background-color: #0066ff;
+    color: #1c1c1c;
+}
+
+#lapBtn:hover {
+    background-color: #0052cc;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    color: #e1e1e1;
+    font-size: 18px;
+}
+
+#laps li {
+    padding: 5px 0;
+    border-bottom: 1px solid #00ffcc;
+}
